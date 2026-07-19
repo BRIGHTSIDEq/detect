@@ -1,0 +1,13 @@
+seed: 42
+model: yolo11n.pt
+image_size: 416
+epochs: 80
+batch_size: 4
+min_batch_size: 1
+accumulate: 4
+workers: 2
+amp: true
+freeze_epochs: 5
+patience: 12
+device: auto
+project: artifacts/checkpoints
