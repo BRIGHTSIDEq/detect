@@ -35,32 +35,6 @@ open ios/ObjectLens/ObjectLens.xcodeproj
 ## Ограничения
 Большие датасеты и обученные веса не входят в Git. Реальные mAP, latency и FPS появляются только после запуска benchmark, обучения, Core ML-валидации и теста на физическом iPhone.
 
-
-## Одна кнопка запуска на Windows
-
-Для максимально простого старта откройте PowerShell в корне репозитория и запустите один файл:
-
-```powershell
-.\scripts\one_click_windows.ps1
-```
-
-Скрипт сам создаёт `.venv`, ставит зависимости, скачивает маленький проверочный датасет COCO8 по ссылке, создаёт структуру данных, запускает тесты и benchmark. Это быстрый smoke-test, чтобы убедиться, что проект запускается без ручной установки датасета.
-
-Для реального обучения на ваших классах запустите тот же файл с флагом `-RealDataset`. Он сам поставит FiftyOne и скачает Open Images:
-
-```powershell
-.\scripts\one_click_windows.ps1 -RealDataset
-python scripts/train.py
-```
-
-Если нужно ограничить размер первой загрузки, задайте лимит:
-
-```powershell
-.\scripts\one_click_windows.ps1 -RealDataset -MaxSamplesPerSplit 200
-```
-
-Open Images скачивается локально в `data/raw`, а подготовленные данные кладутся в `data/processed`. Ничего из этих папок не надо пушить в GitHub.
-
 ## Как запушить этот проект в свой GitHub
 
 Если репозиторий уже привязан к вашему GitHub remote, выполните:
