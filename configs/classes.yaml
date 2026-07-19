@@ -1,0 +1,479 @@
+version: 1
+classes:
+  - id: 0
+    name: apple
+    display_ru: "Яблоко"
+    display_en: "Apple"
+    source: coco_and_open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: good
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 1
+    name: banana
+    display_ru: "Банан"
+    display_en: "Banana"
+    source: coco_and_open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: good
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 2
+    name: orange
+    display_ru: "Апельсин"
+    display_en: "Orange"
+    source: coco_and_open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: good
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 3
+    name: lemon
+    display_ru: "Лимон"
+    display_en: "Lemon"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: medium
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 4
+    name: pear
+    display_ru: "Груша"
+    display_en: "Pear"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: medium
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 5
+    name: peach
+    display_ru: "Персик"
+    display_en: "Peach"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: medium
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 6
+    name: mango
+    display_ru: "Манго"
+    display_en: "Mango"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: medium
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 7
+    name: pineapple
+    display_ru: "Ананас"
+    display_en: "Pineapple"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: medium
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 8
+    name: strawberry
+    display_ru: "Клубника"
+    display_en: "Strawberry"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: medium
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 9
+    name: grapes
+    display_ru: "Виноград"
+    display_en: "Grapes"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: medium
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 10
+    name: watermelon
+    display_ru: "Арбуз"
+    display_en: "Watermelon"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: medium
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 11
+    name: kiwi
+    display_ru: "Киви"
+    display_en: "Kiwi"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: medium
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 12
+    name: tomato
+    display_ru: "Помидор"
+    display_en: "Tomato"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: medium
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 13
+    name: cucumber
+    display_ru: "Огурец"
+    display_en: "Cucumber"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: medium
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 14
+    name: carrot
+    display_ru: "Морковь"
+    display_en: "Carrot"
+    source: coco_and_open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: good
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 15
+    name: potato
+    display_ru: "Картофель"
+    display_en: "Potato"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: medium
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 16
+    name: onion
+    display_ru: "Лук"
+    display_en: "Onion"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: medium
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 17
+    name: garlic
+    display_ru: "Чеснок"
+    display_en: "Garlic"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: medium
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 18
+    name: bell_pepper
+    display_ru: "Болгарский перец"
+    display_en: "Bell Pepper"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: medium
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 19
+    name: broccoli
+    display_ru: "Брокколи"
+    display_en: "Broccoli"
+    source: coco_and_open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: good
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 20
+    name: cabbage
+    display_ru: "Капуста"
+    display_en: "Cabbage"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: medium
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 21
+    name: lettuce
+    display_ru: "Салат"
+    display_en: "Lettuce"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: medium
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 22
+    name: eggplant
+    display_ru: "Баклажан"
+    display_en: "Eggplant"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: medium
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 23
+    name: zucchini
+    display_ru: "Кабачок"
+    display_en: "Zucchini"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: limited
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 24
+    name: bread
+    display_ru: "Хлеб"
+    display_en: "Bread"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: medium
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 25
+    name: egg
+    display_ru: "Яйцо"
+    display_en: "Egg"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: medium
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 26
+    name: cheese
+    display_ru: "Сыр"
+    display_en: "Cheese"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: medium
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 27
+    name: milk
+    display_ru: "Молоко"
+    display_en: "Milk"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: medium
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 28
+    name: meat
+    display_ru: "Мясо"
+    display_en: "Meat"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: limited
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 29
+    name: chicken
+    display_ru: "Курица"
+    display_en: "Chicken"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: medium
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 30
+    name: fish
+    display_ru: "Рыба"
+    display_en: "Fish"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: medium
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 31
+    name: sausage
+    display_ru: "Колбаса"
+    display_en: "Sausage"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: limited
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 32
+    name: bottle
+    display_ru: "Бутылка"
+    display_en: "Bottle"
+    source: coco_and_open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: good
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 33
+    name: mug
+    display_ru: "Кружка"
+    display_en: "Mug"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: medium
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 34
+    name: cup
+    display_ru: "Чашка"
+    display_en: "Cup"
+    source: coco_and_open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: good
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 35
+    name: glass
+    display_ru: "Стакан"
+    display_en: "Glass"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: medium
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 36
+    name: bowl
+    display_ru: "Миска"
+    display_en: "Bowl"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: medium
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 37
+    name: plate
+    display_ru: "Тарелка"
+    display_en: "Plate"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: medium
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 38
+    name: fork
+    display_ru: "Вилка"
+    display_en: "Fork"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: medium
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 39
+    name: spoon
+    display_ru: "Ложка"
+    display_en: "Spoon"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: medium
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 40
+    name: knife
+    display_ru: "Нож"
+    display_en: "Knife"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: medium
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 41
+    name: book
+    display_ru: "Книга"
+    display_en: "Book"
+    source: coco_and_open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: good
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 42
+    name: notebook
+    display_ru: "Тетрадь"
+    display_en: "Notebook"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: limited
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 43
+    name: phone
+    display_ru: "Телефон"
+    display_en: "Phone"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: medium
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 44
+    name: laptop
+    display_ru: "Ноутбук"
+    display_en: "Laptop"
+    source: coco_and_open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: good
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 45
+    name: keyboard
+    display_ru: "Клавиатура"
+    display_en: "Keyboard"
+    source: coco_and_open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: good
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 46
+    name: mouse
+    display_ru: "Мышь"
+    display_en: "Mouse"
+    source: coco_and_open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: good
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 47
+    name: remote_control
+    display_ru: "Пульт"
+    display_en: "Remote Control"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: limited
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 48
+    name: backpack
+    display_ru: "Рюкзак"
+    display_en: "Backpack"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: medium
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 49
+    name: handbag
+    display_ru: "Сумка"
+    display_en: "Handbag"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: medium
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 50
+    name: scissors
+    display_ru: "Ножницы"
+    display_en: "Scissors"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: medium
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 51
+    name: toothbrush
+    display_ru: "Зубная щётка"
+    display_en: "Toothbrush"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: medium
+    coverage: "заполняется скриптом статистики после скачивания"
+  - id: 52
+    name: clock
+    display_ru: "Часы"
+    display_en: "Clock"
+    source: open_images_v7
+    estimated_images: 0
+    estimated_boxes: 0
+    annotation_quality: medium
+    coverage: "заполняется скриптом статистики после скачивания"
