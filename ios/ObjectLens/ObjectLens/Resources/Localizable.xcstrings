@@ -1,0 +1,26 @@
+{
+  "sourceLanguage": "ru",
+  "strings": {
+    "Камера": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Camera"
+          }
+        }
+      }
+    },
+    "Настройки": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
