@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+data/raw/
+data/interim/
+data/processed/
+artifacts/checkpoints/*.pt
+artifacts/coreml/*.mlpackage/
+.DS_Store
+DerivedData/

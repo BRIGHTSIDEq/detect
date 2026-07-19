@@ -1,0 +1,5 @@
+path: data/processed/yolo
+train: images/train
+val: images/val
+test: images/test
+names_from: configs/classes.yaml

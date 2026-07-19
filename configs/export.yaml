@@ -1,0 +1,7 @@
+checkpoint: artifacts/checkpoints/best.pt
+image_size: 416
+format: coreml
+half: true
+nms: false
+output: artifacts/coreml/ObjectLensDetector.mlpackage
+metadata: artifacts/coreml/classes.json
