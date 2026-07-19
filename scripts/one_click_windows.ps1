@@ -22,5 +22,5 @@ python scripts/benchmark.py
 if ($RealDataset) {
     Write-Host "Open Images скачан. Можно запускать обучение: python scripts/train.py" -ForegroundColor Green
 } else {
-    Write-Host "Готово. Проверочный pipeline работает. Для реального датасета: .\scripts\one_click_windows.ps1 -RealDataset" -ForegroundColor Green
+    Write-Host "Готово. Проверочный pipeline работает. Для реального датасета: .\scripts\one_click.ps1 -RealDataset" -ForegroundColor Green
 }

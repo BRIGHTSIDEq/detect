@@ -35,6 +35,44 @@ open ios/ObjectLens/ObjectLens.xcodeproj
 ## Ограничения
 Большие датасеты и обученные веса не входят в Git. Реальные mAP, latency и FPS появляются только после запуска benchmark, обучения, Core ML-валидации и теста на физическом iPhone.
 
+
+## Одна кнопка запуска на Windows
+
+Для максимально простого старта откройте PowerShell в корне репозитория и запустите файл `scripts/one_click.ps1`:
+
+```powershell
+.\scripts\one_click.ps1
+```
+
+Если PowerShell запрещает запуск `.ps1`, дважды нажмите `scripts/one_click.bat` или запустите `powershell -ExecutionPolicy Bypass -File scripts/one_click.ps1`. Скрипт сам создаёт `.venv`, ставит зависимости, скачивает маленький проверочный датасет COCO8 по ссылке, создаёт структуру данных, запускает тесты и benchmark. Это быстрый smoke-test, чтобы убедиться, что проект запускается без ручной установки датасета.
+
+Для реального обучения на ваших классах запустите тот же файл `scripts/one_click.ps1` с флагом `-RealDataset`. Он сам поставит FiftyOne и скачает Open Images:
+
+```powershell
+.\scripts\one_click.ps1 -RealDataset
+python scripts/train.py
+```
+
+Если нужно ограничить размер первой загрузки, задайте лимит:
+
+```powershell
+.\scripts\one_click.ps1 -RealDataset -MaxSamplesPerSplit 200
+```
+
+Open Images скачивается локально в `data/raw`, а подготовленные данные кладутся в `data/processed`. Ничего из этих папок не надо пушить в GitHub.
+
+
+### Актуальные имена файлов в `scripts`
+
+На Windows используйте именно эти файлы:
+
+- `scripts/one_click.ps1` — основной короткий запуск;
+- `scripts/one_click.bat` — запуск двойным кликом или обход ExecutionPolicy;
+- `scripts/one_click_windows.ps1` — внутренний полный Windows-скрипт;
+- `scripts/setup_windows.ps1` — только установка окружения без скачивания реального датасета.
+
+Не используйте Bash-синтаксис внутри PowerShell. В `setup_windows.ps1` проверка CUDA выполняется через `python -c`, поэтому ошибка `python - <<'PY'` больше не возникает.
+
 ## Как запушить этот проект в свой GitHub
 
 Если репозиторий уже привязан к вашему GitHub remote, выполните:

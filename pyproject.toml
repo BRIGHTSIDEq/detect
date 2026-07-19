@@ -6,6 +6,7 @@ requires-python = ">=3.11,<3.13"
 dependencies = ["ultralytics>=8.3.0", "torch>=2.4", "torchvision>=0.19", "opencv-python>=4.10", "pillow>=10", "pyyaml>=6", "numpy>=1.26", "matplotlib>=3.9", "scikit-learn>=1.5", "tqdm>=4.66", "rich>=13", "coremltools>=8.0; platform_system=='Darwin'"]
 [project.optional-dependencies]
 dev=["pytest>=8", "pytest-cov>=5", "ruff>=0.6", "mypy>=1.11"]
+data=["fiftyone>=1.0"]
 [tool.pytest.ini_options]
 testpaths=["tests"]
 pythonpath=["src"]
